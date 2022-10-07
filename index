@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Flexbox -->
+        <h1 style="margin-block-start: 0px; margin-block-end: 0px;">Tec<b style="color: white;">Blog</b></h1>
+        <div class="linkks">
+            <nav>
+            <a >Home</a>
+            <a>Jogos</a>
+            <a>Celulares</a>
+            <a>Informática</a>
+            <a>Eletrônicos</a>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+    <!-- Postagem 1 -->
+    <div>
+        <h1>Título da Postagem 1</h1>
+        <p>postado 20 de março 2022</p>
+        
+        <img src="img/imagem1.jpg" alt="img1">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et nostrum animi culpa placeat dignissimos iure libero, eveniet inventore consectetur repellendus reiciendis sequi vitae numquam hic commodi id, blanditiis earum nobis.</p>
+    </div>
+    <!-- Postagem 2 -->
+    <div>
+        <h1>Título da Postagem 2</h1>
+        <p>postado 10 de março 2022</p>
+
+        <img src="img/imagem2.jpg" alt="img2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat deleniti officia voluptas deserunt? Vero impedit tempore quisquam? Dignissimos enim deserunt quidem mollitia exercitationem, aliquid a possimus nulla velit fuga blanditiis.</p>
+    </div>
+    </main>
+    <!-- Postagens recentes -->
+    <div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="">Leia mais</a>
+        </div>
+        
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="">Leia mais</a>
+        </div>
+    </div>
+    
+    <!-- Categorias -->
+    <div>
+
+    </div>
+    <footer>todos os direitos reservado</footer>
+</body>
+</html>
+.header{
+
+    background-color: rgb(245, 174, 42);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/* links */
+
+.linkks{
+    background-color:rgb(245, 174, 42);
+
+}
